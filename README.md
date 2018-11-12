@@ -4,9 +4,12 @@ This project will analyze sales orders created for a retailer with several speci
 ## Product Analysis
 
 This spice retailer sells a number of products but the main areas are direct herbs and spices and spice blends.  Spice blends are custom blend of spices that can be used 
-
+![image info](images/Products.png)
 
 
 
 ## New Blend Analysis
-Utilizing the Ingredients in each ap
+
+![image info](images/Reconstruction60.png)
+
+![image info](images/Features.png)
