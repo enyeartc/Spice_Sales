@@ -49,10 +49,22 @@ This spice retailer sells a number of products but the main areas are direct her
        'true', 'turmeric', 'urfa', 'vanilla', 'verbena', 'wasabi', 'weed',
        'white', 'whole', 'wood', 'yellow'
        
-       
+
+Break down every recipe and rub into list of Herbs and Spices
+
 Ham Persillade with Mustard Potato Salad and M.     'long', 'parsley', 'garlic', 'celery'
+
 Limnos Lamb Rub                                     'coarse', 'garlic', 'lemon', 'peel', 'onion'
 
+
+Feature 38 No Blends but 700+ recipies
+----- 38
+['chile' 'chinese' 'chives' 'dill' 'ginger' 'greek' 'long' 'paste' 'pods' 'scallions']
+
+8      ['sesame', 'scallions', 'white', 'green', 'min...
+38                                ['sweet', 'scallions']
+90            ['lime', 'powder', 'cayenne', 'scallions']
+118                     ['lemon', 'garlic', 'scallions']
 
 
 
