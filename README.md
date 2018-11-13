@@ -1,5 +1,5 @@
 # Spice Sales
-This project  analyzed the sales orders created for a retailer with several specialty spice stores. This store offers hundreds of spices, seasonings, and other specialty food products at over 20 locations nationwide and online through their website. This will involve looking at 6 years worth of Sales Order data, list of products, and a database of recipies.   The model will used NMP for its model although PCA and others were considered.   
+This project  analyzed the sales orders created for a retailer with several specialty spice stores. This store offers hundreds of spices, seasonings, and other specialty food products at over 20 locations nationwide and online through their website. This will involve looking at 6 years worth of Sales Order data, list of products, and a database of recipies.   The model will used Non-negative matrix factorization (NMF) for its model although PCA and others were considered.   
 
 ## Product Analysis
 
@@ -16,12 +16,10 @@ https://www.bonappetit.com/recipe/steamed-black-cod-with-soy-chile-sauce
 [\'1 head of garlic, 3 cloves sliced, remaining head halved crosswise\', \'6 scallions, trimmed, 2 cut into 2" pieces, 4 thinly sliced\', \'1 5" piece peeled fresh ginger, cut into matchstick-size pieces\', \'1/2 lemon\', \'4 4-ounce black cod fillets, skin on\', \'1 tablespoon vegetable oil\', \'Kosher salt\', \'2 tablespoons reduced-sodium soy sauce\', \'2 green Thai chiles or 1 serrano chile, thinly sliced\', \'1 tablespoon chopped fresh cilantro\']
 
 
-## New Blend Analysis
-
-![image info](images/WH.png)
-
-![image info](images/Reconstruction60.png)
-
+## Recipe Analysis
+First I looked for order in the data by using PCA with two pricipal components.  
+![image info](images/PCA.png)
+In the diagram above one recipe in the top part contained ['dried', 'green', 'celery', 'lemon', 'pepper'] one in the below shape contained ['fennel', 'bulb', 'anise', 'leaves', 'onion'].  Although this might have worked for this analysis, a spice with -.2 and -.4 in not very intuative to understand.   
 ### Spices
 
 'achiote', 'acid', 'adobo', 'aji', 'aleppo', 'allspice',
@@ -55,6 +53,19 @@ https://www.bonappetit.com/recipe/steamed-black-cod-with-soy-chile-sauce
 So based in the previous recipe you would only get the following ingredients for this recipe.
 
 ['garlic', 'cloves', 'scallions', 'ginger', 'green', 'thai', 'chiles', 'serrano', 'chile']
+
+### Using NMF
+When using NMF it inforces positve values and this can be helpful to understand which ingredients will be used.  NMF decomposes the recipe list into two matrices, W and H, when multiplied together they approximately recreate our original V matrix. Below is visulizaton of the H matrix with the latent topics (k) across the bottom and the ingredients on the y axis.  The W matrix would be similar but it would have the recipies relating to the latent topics.   
+
+![image info](images/WH.png)
+
+I went with 50 topics, there was not much of a bend in the elbow plot seen below.   
+
+![image info](images/Reconstruction60.png)
+
+Using these two matricies allows the data to be compaired and recomendation made for the company and customers.   
+
+
        
 ![image info](images/FeaturestoSpices.png)
 Break down every recipe and rub into list of Herbs and Spices
