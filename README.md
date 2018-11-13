@@ -37,7 +37,7 @@ https://www.bonappetit.com/recipe/steamed-black-cod-with-soy-chile-sauce
        'inner', 'jalapeno', 'japones', 'juniper', 'lampong', 'lavender',
        'leaves', 'lemon', 'lemongrass', 'lime', 'long', 'lovage', 'mace',
        'makrut', 'malabar', 'marjoram', 'mesquite', 'minced', 'morita',
-       'moritas', 'moroccan', 'mulato', 'mustard', 'mysore', 'negro',
+       'moritas', 'moroccan', 'mulato', 'mustard', 'mysore', 
        'nibs', 'nutmeg', 'nutmegs', 'onion', 'onyx', 'orange', 'oregano',
        'oriental', 'paprika', 'parsley', 'pasilla', 'paste', 'peel',
        'pepper', 'peppercorns', 'peppermint', 'pequin', 'petals',
@@ -56,6 +56,8 @@ So based in the previous recipe you would only get the following ingredients for
        
 ![image info](images/FeaturestoSpices.png)
 Break down every recipe and rub into list of Herbs and Spices
+
+![image info](images/Freeze.png)
 
 Ham Persillade with Mustard Potato Salad and M.     'long', 'parsley', 'garlic', 'celery'
 
