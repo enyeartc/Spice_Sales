@@ -65,10 +65,15 @@ I went with 50 topics, there was not much of a bend in the elbow plot seen below
 
 Using these two matricies allows the data to be compaired and recomendation made for the company and customers.   
 
-
-       
 ![image info](images/FeaturestoSpices.png)
-Break down every recipe and rub into list of Herbs and Spices
+
+Break down every recipe and blend into a list of latent topics allows us to compare a recipe to all the blends.  For example the recipe based on the W matrix above would have the following values:
+
+
+This can be compared to all the blends and the closest blend is 
+
+![image info](images/Mackerel.png)
+
 
 ![image info](images/Freeze.png)
 
@@ -88,7 +93,6 @@ Feature 38 No Blends but 700+ recipies
 
 ![image info](images/EpicuriousDuck.png)
 
-![image info](images/Mackerel.png)
 
 
 
