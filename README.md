@@ -49,7 +49,7 @@ This spice retailer sells a number of products but the main areas are direct her
        'true', 'turmeric', 'urfa', 'vanilla', 'verbena', 'wasabi', 'weed',
        'white', 'whole', 'wood', 'yellow'
        
-
+![image info](images/FeaturestoSpices.png)
 Break down every recipe and rub into list of Herbs and Spices
 
 Ham Persillade with Mustard Potato Salad and M.     'long', 'parsley', 'garlic', 'celery'
