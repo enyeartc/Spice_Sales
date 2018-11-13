@@ -9,13 +9,16 @@ This spice retailer sells a number of products but the main areas are direct her
 
 The two main pieces of data used for this project from above was the list if Herbs and Spices and the list of Blends.  From the companies website you could get a list of ingredients for each spice blend.   From this list of Spices and the ingredients of the blends a list of words we wanted to analize was created.   
 
-Using the list of recipies 
+Using the list of recipies like an example below, and the blends, and ingredients can be used to find blends that match to recipies, and potentially blends yet to be created.  
 
 Steamed Black Cod with Soy-Chile Sauce
 https://www.bonappetit.com/recipe/steamed-black-cod-with-soy-chile-sauce
 [\'1 head of garlic, 3 cloves sliced, remaining head halved crosswise\', \'6 scallions, trimmed, 2 cut into 2" pieces, 4 thinly sliced\', \'1 5" piece peeled fresh ginger, cut into matchstick-size pieces\', \'1/2 lemon\', \'4 4-ounce black cod fillets, skin on\', \'1 tablespoon vegetable oil\', \'Kosher salt\', \'2 tablespoons reduced-sodium soy sauce\', \'2 green Thai chiles or 1 serrano chile, thinly sliced\', \'1 tablespoon chopped fresh cilantro\']
 
+
 ## New Blend Analysis
+
+![image info](images/WH.png)
 
 ### Spices
 
@@ -46,6 +49,10 @@ https://www.bonappetit.com/recipe/steamed-black-cod-with-soy-chile-sauce
        'summer', 'sweet', 'szechwan', 'tarragon', 'thai', 'threads',
        'thyme', 'toasted', 'true', 'turmeric', 'urfa', 'vanilla',
        'verbena', 'wasabi', 'weed', 'white', 'wood'
+
+So based in the previous recipe you would only get the following ingredients for this recipe.
+
+['garlic', 'cloves', 'scallions', 'ginger', 'green', 'thai', 'chiles', 'serrano', 'chile']
        
 ![image info](images/FeaturestoSpices.png)
 Break down every recipe and rub into list of Herbs and Spices
