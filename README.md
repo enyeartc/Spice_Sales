@@ -73,7 +73,9 @@ Feature 38 No Blends but 700+ recipies
 90            ['lime', 'powder', 'cayenne', 'scallions']
 118                     ['lemon', 'garlic', 'scallions']
 
+![image info](images/EpicuriousDuck.png)
 
+![image info](images/Mackerel.png)
 
 ![image info](images/Reconstruction60.png)
 
