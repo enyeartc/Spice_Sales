@@ -15,7 +15,9 @@ Steamed Black Cod with Soy-Chile Sauce
 https://www.bonappetit.com/recipe/steamed-black-cod-with-soy-chile-sauce
 [\'1 head of garlic, 3 cloves sliced, remaining head halved crosswise\', \'6 scallions, trimmed, 2 cut into 2" pieces, 4 thinly sliced\', \'1 5" piece peeled fresh ginger, cut into matchstick-size pieces\', \'1/2 lemon\', \'4 4-ounce black cod fillets, skin on\', \'1 tablespoon vegetable oil\', \'Kosher salt\', \'2 tablespoons reduced-sodium soy sauce\', \'2 green Thai chiles or 1 serrano chile, thinly sliced\', \'1 tablespoon chopped fresh cilantro\']
 
-
+## Process
+- Get a list of Herbs and spices that are sold
+- Add to list any ingredients in blends (like parm
 ## Recipe Analysis
 First I looked for order in the data by using PCA with two pricipal components.  
 ![image info](images/PCA.png)
