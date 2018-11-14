@@ -69,12 +69,15 @@ Using these two matricies allows the data to be compaired and recomendation made
 
 ![image info](images/FeaturestoSpices.png)
 
-Break down every recipe and blend into a list of latent topics allows us to compare a recipe to all the blends.  For example the recipe based on the W matrix above 'Mackerel with Crushed Potatoes and Oregano' would have a latent feature matrix of 
-0.03, 0.05, 0.  , 0.07, 0.  , 0.  , 0.  , 0.  , 0.  , 0.  , 0.  ,.....
-and one of the blends 'Mt. Olympus Greek Style Seasoning'
-0.  , 0.03, 0.  , 0.  , 0.  , 0.  , 0.  , 0.  , 0.  , 0.  , 0.04,
+Break down every recipe and blend into a list of latent topics allows us to compare a recipe to all the blends.  For example the recipe based on the W matrix above recipe 23236 which is 'Mackerel with Crushed Potatoes and Oregano' would have a latent feature matrix of 
 
-This is a pretty close match base on the ingredients, so this blend could be recomended to anyone using this recipe.
+0.04, 0.05, 0.  , 0.  , 0.  , 0.  , 0.  , 0.  , 0.  , 0.07, 0.,.....
+
+and one of the blends 'Mt. Olympus Greek Style Seasoning' recipe 26927
+
+0.01, 0.03, 0.  , 0.  , 0.  , 0.  , 0.  , 0.  , 0.  , 0.03, 0.,  
+
+This is a pretty close with a cosine simularity of 0.82 match base on the ingredients, so this blend could be recomended to anyone using this recipe.
 
 ![image info](images/Mackerel.png)
 
