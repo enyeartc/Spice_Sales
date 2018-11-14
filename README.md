@@ -24,44 +24,18 @@ First I looked for order in the data by using PCA with two pricipal components.
 In the diagram above one recipe in the top part contained ['dried', 'green', 'celery', 'lemon', 'pepper'] one in the below shape contained ['fennel', 'bulb', 'anise', 'leaves', 'onion'].  Although this might have worked for this analysis, a spice with -.2 and -.4 in not very intuative to understand.   
 ### Spices
 
-'achiote', 'acid', 'adobo', 'aji', 'aleppo', 'allspice',
-       'amarillo', 'ancho', 'anise', 'annatto', 'applewood', 'arbol',
-       'asafetida', 'basil', 'bay', 'bean', 'berries', 'bourbon', 'bulb',
-       'cacao', 'candied', 'caraway', 'cardamom', 'cascabel', 'cassia',
-       'cayenne', 'celery', 'ceylon', 'charnushka', 'chervil', 'chia',
-       'chile', 'chiles', 'chinese', 'chipotle', 'chives', 'chocolate',
-       'cilantro', 'cinnamon', 'citric', 'cloves', 'coarse', 'cocoa',
-       'coriander', 'coupe', 'crack', 'crystallized', 'cumin', 'curry',
-       'dill', 'dried', 'dutch', 'epazote', 'espelette', 'european',
-       'fennel', 'fenugreek', 'freezedried', 'galangal', 'garlic',
-       'ghost', 'ginger', 'grains', 'granulated', 'greek', 'green',
-       'guajillo', 'gum', 'gumbo', 'habanero', 'hibiscus', 'horseradish',
-       'inner', 'jalapeno', 'japones', 'juniper', 'lampong', 'lavender',
-       'leaves', 'lemon', 'lemongrass', 'lime', 'long', 'lovage', 'mace',
-       'makrut', 'malabar', 'marjoram', 'mesquite', 'minced', 'morita',
-       'moritas', 'moroccan', 'mulato', 'mustard', 'mysore', 
-       'nibs', 'nutmeg', 'nutmegs', 'onion', 'onyx', 'orange', 'oregano',
-       'oriental', 'paprika', 'parsley', 'pasilla', 'paste', 'peel',
-       'pepper', 'peppercorns', 'peppermint', 'pequin', 'petals',
-       'piment', 'pods', 'pollen', 'poppy', 'powder', 'powdered',
-       'premium', 'raw', 'roasted', 'root', 'rose', 'rosebuds',
-       'rosemary', 'rubbed', 'saffron', 'sage', 'saigon', 'sarawak',
-       'sauce', 'savory', 'scallions', 'seeds', 'serrano', 'sesame',
-       'shallots', 'smoked', 'spanish', 'spearmint', 'star', 'sumac',
-       'summer', 'sweet', 'szechwan', 'tarragon', 'thai', 'threads',
-       'thyme', 'toasted', 'true', 'turmeric', 'urfa', 'vanilla',
-       'verbena', 'wasabi', 'weed', 'white', 'wood'
+'achiote', 'acid', 'activated', 'adobo', 'aji', 'ajowan','alcohol', 'alderwood', 'aleppo', 'allspice', 'amarillo', 'ancho','anise', 'annatto', 'applewood', 'arbol', 'arrowroot', 'asabi','asafetida', 'asiago', 'basil', 'bay', 'bhut', 'bleu', 'bolete','bourbon', 'brokenbag', 'cacao', 'candied', 'caramel', 'caraway','cardamom', 'cascabel', 'cassia', 'cayenne', 'celery', 'ceylon','ceylontrue', 'chanterelle', 'charcoal', 'charnushka', 'cheddar','cheese', 'chervil', 'chia', 'chile', 'chiles', 'chili', 'chilies','chipotle', 'chives', 'chocolate', 'cilantro', 'cinnamon', 'citric', 'clove', 'cloves', 'coarse', 'cocoa', 'coffee', 'color', 'coriander', 'corn', 'coupe', 'cowês', 'crack', 'cream', 'crystalized', 'cubeb', 'culture', 'cultures', 'cumin', 'curry', "d'espelette", 'dill', 'dry', 'epazote', 'essential', 'fennel','fenugreek', 'frankincense', 'galangal', 'garlic', 'ghost','ginger', 'gmo', 'grains', 'granulated', 'granules', 'grass','green', 'grenada', 'grey', 'guajillo', 'gum', 'gumbo', 'habanero', 'habanerobag', 'harina', 'hibiscus', 'hickory', 'himalayan', 'honey', 'horseradish', 'jalapeno', 'japone', 'japones', 'jolokia', 'juice', 'juniper', 'lactic', 'lampong', 'lavender', 'lemon','lemongrass', 'lime', 'lovage', 'mace', 'madagascar', 'mahlab', 'makrut', 'malabar', 'maple', 'marjoram', 'masa', 'mayan', 'mecos', 'mesquite', 'meyer', 'morita', 'moritas', 'moroccan', 'mulato',  'mushroom', 'mushrooms', 'mustard', 'mustards', 'myrrh', 'mysore',  'naturally', 'negro', 'nibs', 'nutmeg', 'nutmegs', 'onion', 'onyx',  'orange', 'oregano', 'orris', 'pakistan', 'paprika', 'paradise'  'parmesan', 'parsley', 'pasilla', 'pepper', 'peppercorns', 'peppermint', 'peppers', 'pequin', 'petals', 'piment', 'pineapple',  'pods', 'pollen', 'poppy', 'porcini', 'powdered', 'pumpkin','raritan', 'red', 'refinery', 'rinds', 'roasted', 'romano', 'rose',  'rosebuds', 'rosemary', 'saffron', 'sage', 'saigon', 'salt',    'sarawak', 'savory', 'scallions', 'scorpion', 'seaweed', 'serrano'   'sesame', 'shallot', 'shallots', 'shitake', 'smoke', 'smoked',  'smokedbag', 'sourced', 'spearmint', 'sriracha', 'sugar', 'sumac',   'sweet', 'syrup', 'szechwan', 'tahitian', 'tarragon', 'tasmanian',    'tears', 'tellicherry', 'tellicherry:', 'threads', 'thyme' 'tipico', 'toasted', 'tomato', 'trinidad', 'true', 'turkish'     'turmeric', 'urfa', 'vanilla', 'verbena', 'vinegar', 'wasabi',  'weed', 'worcestershire'
 
 So based in the previous recipe you would only get the following ingredients for this recipe.
 
 ['garlic', 'cloves', 'scallions', 'ginger', 'green', 'thai', 'chiles', 'serrano', 'chile']
 
 ### Using NMF
-When using NMF it inforces positve values and this can be helpful to understand which ingredients will be used.  NMF decomposes the recipe list into two matrices, W and H, when multiplied together they approximately recreate our original V matrix. Below is visulizaton of the H matrix with the latent topics (k) across the bottom and the ingredients on the y axis.  The W matrix would be similar but it would have the recipies relating to the latent topics.   
+When using NMF it inforces positve values and this can be helpful to understand which ingredients will be used.  NMF decomposes the recipe list into two matrices, W and H, when multiplied together they approximately recreate our original V matrix. Below is a visulizaton of the H matrix with the latent topics (k) across the bottom and the ingredients on the y axis.  The W matrix would be similar but it would have the recipies relating to the latent topics.   
 
 ![image info](images/WH.png)
 
-I went with 50 topics, there was not much of a bend in the elbow plot seen below.   
+I went with 50 topics, there is not noticeable bend in the elbow plot seen below.    
 
 ![image info](images/Reconstruction60.png)
 
