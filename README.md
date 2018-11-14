@@ -3,35 +3,42 @@ This project  analyzed the sales orders created for a retailer with several spec
 
 ## Product Analysis
 
-This spice retailer sells a number of products but the main areas are direct herbs and spices and spice blends.  Spice blends are custom blend of spices that can be used 
+This spice retailer sells a number of products but the main areas are direct herbs and spices and spice blends.  Spice blends are custom blend of spices that can be purchased in various sizes.  
 
 ![image info](images/Products.png)
 
-The two main pieces of data used for this project from above was the list if Herbs and Spices and the list of Blends.  From the companies website you could get a list of ingredients for each spice blend.   From this list of Spices and the ingredients of the blends a list of words we wanted to analize was created.   
+For this project, a list of blends, a list of Herbs and spices can be utilized.  From the companies website you could get a list of ingredients for each spice blend.   From this list of Spices and the ingredients of the blends a list of words we wanted to analize was created.   
 
-Using the list of recipies like an example below, and the blends, and ingredients can be used to find blends that match to recipies, and potentially blends yet to be created.  
-
-Steamed Black Cod with Soy-Chile Sauce
-https://www.bonappetit.com/recipe/steamed-black-cod-with-soy-chile-sauce
-[\'1 head of garlic, 3 cloves sliced, remaining head halved crosswise\', \'6 scallions, trimmed, 2 cut into 2" pieces, 4 thinly sliced\', \'1 5" piece peeled fresh ginger, cut into matchstick-size pieces\', \'1/2 lemon\', \'4 4-ounce black cod fillets, skin on\', \'1 tablespoon vegetable oil\', \'Kosher salt\', \'2 tablespoons reduced-sodium soy sauce\', \'2 green Thai chiles or 1 serrano chile, thinly sliced\', \'1 tablespoon chopped fresh cilantro\']
-
-## Process
-- Get a list of Herbs and spices that are sold
-- Add to list any ingredients in blends (like parm
-## Recipe Analysis
-First I looked for order in the data by using PCA with two pricipal components.  
-![image info](images/PCA.png)
-In the diagram above one recipe in the top part contained ['dried', 'green', 'celery', 'lemon', 'pepper'] one in the below shape contained ['fennel', 'bulb', 'anise', 'leaves', 'onion'].  Although this might have worked for this analysis, a spice with -.2 and -.4 in not very intuative to understand.   
 ### Spices
 
 'achiote', 'acid', 'activated', 'adobo', 'aji', 'ajowan','alcohol', 'alderwood', 'aleppo', 'allspice', 'amarillo', 'ancho','anise', 'annatto', 'applewood', 'arbol', 'arrowroot', 'asabi','asafetida', 'asiago', 'basil', 'bay', 'bhut', 'bleu', 'bolete','bourbon', 'brokenbag', 'cacao', 'candied', 'caramel', 'caraway','cardamom', 'cascabel', 'cassia', 'cayenne', 'celery', 'ceylon','ceylontrue', 'chanterelle', 'charcoal', 'charnushka', 'cheddar','cheese', 'chervil', 'chia', 'chile', 'chiles', 'chili', 'chilies','chipotle', 'chives', 'chocolate', 'cilantro', 'cinnamon', 'citric', 'clove', 'cloves', 'coarse', 'cocoa', 'coffee', 'color', 'coriander', 'corn', 'coupe', 'cowês', 'crack', 'cream', 'crystalized', 'cubeb', 'culture', 'cultures', 'cumin', 'curry', "d'espelette", 'dill', 'dry', 'epazote', 'essential', 'fennel','fenugreek', 'frankincense', 'galangal', 'garlic', 'ghost','ginger', 'gmo', 'grains', 'granulated', 'granules', 'grass','green', 'grenada', 'grey', 'guajillo', 'gum', 'gumbo', 'habanero', 'habanerobag', 'harina', 'hibiscus', 'hickory', 'himalayan', 'honey', 'horseradish', 'jalapeno', 'japone', 'japones', 'jolokia', 'juice', 'juniper', 'lactic', 'lampong', 'lavender', 'lemon','lemongrass', 'lime', 'lovage', 'mace', 'madagascar', 'mahlab', 'makrut', 'malabar', 'maple', 'marjoram', 'masa', 'mayan', 'mecos', 'mesquite', 'meyer', 'morita', 'moritas', 'moroccan', 'mulato',  'mushroom', 'mushrooms', 'mustard', 'mustards', 'myrrh', 'mysore',  'naturally', 'negro', 'nibs', 'nutmeg', 'nutmegs', 'onion', 'onyx',  'orange', 'oregano', 'orris', 'pakistan', 'paprika', 'paradise'  'parmesan', 'parsley', 'pasilla', 'pepper', 'peppercorns', 'peppermint', 'peppers', 'pequin', 'petals', 'piment', 'pineapple',  'pods', 'pollen', 'poppy', 'porcini', 'powdered', 'pumpkin','raritan', 'red', 'refinery', 'rinds', 'roasted', 'romano', 'rose',  'rosebuds', 'rosemary', 'saffron', 'sage', 'saigon', 'salt',    'sarawak', 'savory', 'scallions', 'scorpion', 'seaweed', 'serrano'   'sesame', 'shallot', 'shallots', 'shitake', 'smoke', 'smoked',  'smokedbag', 'sourced', 'spearmint', 'sriracha', 'sugar', 'sumac',   'sweet', 'syrup', 'szechwan', 'tahitian', 'tarragon', 'tasmanian',    'tears', 'tellicherry', 'tellicherry:', 'threads', 'thyme' 'tipico', 'toasted', 'tomato', 'trinidad', 'true', 'turkish'     'turmeric', 'urfa', 'vanilla', 'verbena', 'vinegar', 'wasabi',  'weed', 'worcestershire'
 
-So based in the previous recipe you would only get the following ingredients for this recipe.
+Using the list of 30,000 recipies like an example below, and the blends, and ingredients above can be used to find blends that match to recipies, and potentially blends yet to be created.  
 
-['garlic', 'cloves', 'scallions', 'ginger', 'green', 'thai', 'chiles', 'serrano', 'chile']
+Steamed Black Cod with Soy-Chile Sauce
+https://www.bonappetit.com/recipe/steamed-black-cod-with-soy-chile-sauce
+\'1 head of garlic, 3 cloves sliced, remaining head halved crosswise\', \'6 scallions, trimmed, 2 cut into 2" pieces, 4 thinly sliced\', \'1 5" piece peeled fresh ginger, cut into matchstick-size pieces\', \'1/2 lemon\', \'4 4-ounce black cod fillets, skin on\', \'1 tablespoon vegetable oil\', \'Kosher salt\', \'2 tablespoons reduced-sodium soy sauce\', \'2 green Thai chiles or 1 serrano chile, thinly sliced\', \'1 tablespoon chopped fresh cilantro\'
+
+As explained in the process below, to work with this data I took the ingredients listed above, and removed all words that were not in the spice list.  So based in the previous recipe you would only get the following ingredients for this recipe.
+
+'garlic', 'cloves', 'scallions', 'ginger', 'green', 'chiles', 'serrano', 'chile'
+
+## Process
+- Get a list of Herbs and spices that are sold
+- Add to list any ingredients in blends (like parmesan)
+- Make a list of recipies and their ingredients but only include the spices in approved list
+- Feed this list of recipes (recipes + blends) into a TFIDF process
+- Feed the outcome fo the TF-IDF into a model
+- Find the spice mix that has closest cosine similarity to the recipe (blends would match to themselves) 
+- Find groupings of recipies that do not have a spice blend
+
+## Recipe Analysis
+First I looked for order in the data by using PCA with two pricipal components.  
+![image info](images/PCA.png)
+In the diagram above one recipe in the top part contained ['dried', 'green', 'celery', 'lemon', 'pepper'] one in the below shape contained ['fennel', 'bulb', 'anise', 'leaves', 'onion'].  Although this might have worked for this analysis, a spice with -.2 and -.4 in not very intuative to understand.   
 
 ### Using NMF
-When using NMF it inforces positve values and this can be helpful to understand which ingredients will be used.  NMF decomposes the recipe list into two matrices, W and H, when multiplied together they approximately recreate our original V matrix. Below is a visulizaton of the H matrix with the latent topics (k) across the bottom and the ingredients on the y axis.  The W matrix would be similar but it would have the recipies relating to the latent topics.   
+I then decided to use Non-Negative Matrix Factorization (NMF).   When using NMF it inforces positve values and this can be helpful to understand which ingredients will be used.  NMF decomposes the recipe list into two matrices, W and H, when multiplied together they approximately recreate our original V matrix. Below is a visulizaton of the H matrix with the latent topics (k) across the bottom and the ingredients on the y axis.  The W matrix would be similar but it would have the recipies relating to the latent topics.   
 
 ![image info](images/WH.png)
 
