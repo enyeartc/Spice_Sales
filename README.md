@@ -30,7 +30,7 @@ As explained in the process below, to work with this data I took the ingredients
 - Add to list any ingredients in blends (like parmesan)
 - Make a list of recipies and their ingredients but only include the spices in approved list
 - Feed this list of recipes (recipes + blends) into a TFIDF process
-- Feed the outcome fo the TF-IDF into a model
+- Feed the outcome of the TF-IDF into a model (eventually used NMF)
 - Find the spice mix that has closest cosine similarity to the recipe (blends would match to themselves) 
 - Find groupings of recipies that do not have a spice blend
 
