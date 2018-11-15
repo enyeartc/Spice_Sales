@@ -67,10 +67,7 @@ This is a pretty close with a cosine simularity of 0.82 match base on the ingred
 But what if there isn't a good match 'Asian Noodles with Barbecued Duck Confit' there isn't a good blend match, although it does reccomend 'Nacho Cheese Dip' 
 ![image info](images/EpicuriousDuck.png)
 
-Interesting no blends contain scallions.  But 700+ recipies call for this ingredient, this could be a potential new spice blend since there isn't a good match.    
-![image info](images/Freeze.png)
-
-These are recipes like
+Interesting no blends contain scallions.  But 700+ recipies call for this ingredient, this could be a potential new spice blend since there isn't a good match.  These are recipes like
 
 Korean Marinated Beef 
 Steamed Chicken with Black Mushrooms and Bok C...
@@ -83,7 +80,10 @@ That contain ingredients like the following.
 
 Maybe there might be a 'Ramen Booster' spice blend that is needed.  
 
-
+## Future work
+- Customer Analysis, using customer purchases can make an ingredient list
+- Get a list of recipes that customer would like based on purchases
+- Get customer comments utilize this to feed into model.  For example if spice is best with pork use this in recomendations of recipies
 
 ![image info](images/Features.png)
 
