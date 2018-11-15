@@ -1,4 +1,4 @@
-# Spice Sales
+# Spice Blends
 This project  analyzed the sales orders created for a retailer with several specialty spice stores. This store offers hundreds of spices, seasonings, and other specialty food products at over 20 locations nationwide and online through their website. This will involve looking at 6 years worth of Sales Order data, list of products, and a database of recipies.   The model will used Non-negative matrix factorization (NMF) for its model although PCA and others were considered.   
 
 ## Product Analysis
@@ -52,9 +52,12 @@ Using these two matricies allows the data to be compaired and recomendation made
 
 ### H Matrix
 ![image info](images/FeaturestoSpices.png)
-for a frame reference feature 39 has the following ingredients ranked in decreasing order
+
+For a frame reference feature 39 has the following ingredients ranked in decreasing order
 'scallions', 'chile', 'anise', 'sriracha', 'chives', 'mushroom',
        'coriander', 'habanero', 'peppercorns', 'serrano'
+       
+![image info](images/Features.png)
 
 Break down every recipe and blend into a list of latent topics allows us to compare a recipe to all the blends.  For example the recipe based on the W matrix above recipe 23236 which is 'Mackerel with Crushed Potatoes and Oregano' would have a latent feature matrix of 
 
@@ -89,5 +92,5 @@ Maybe there might be a 'Ramen Booster' spice blend that is needed.
 - Get a list of recipes that customer would like based on purchases
 - Get customer comments utilize this to feed into model.  For example if spice is best with pork use this in recomendations of recipies
 
-![image info](images/Features.png)
+
 
