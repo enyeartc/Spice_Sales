@@ -50,6 +50,7 @@ I went with 50 topics, there is not noticeable bend in the elbow plot seen below
 
 Using these two matricies allows the data to be compaired and recomendation made for the company and customers.   
 
+### H Matrix
 ![image info](images/FeaturestoSpices.png)
 
 Break down every recipe and blend into a list of latent topics allows us to compare a recipe to all the blends.  For example the recipe based on the W matrix above recipe 23236 which is 'Mackerel with Crushed Potatoes and Oregano' would have a latent feature matrix of 
