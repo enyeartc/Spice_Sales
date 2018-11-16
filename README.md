@@ -99,6 +99,7 @@ Maybe there might be a 'Ramen Booster' spice blend that is needed.
 ## Future work
 - Customer Analysis, using customer purchases can make an ingredient list
 - Get a list of recipes that customer would like based on purchases
+- Make an app that will take an idea, and see if there is a recipe that matches, and then recomend a spice blend based on that recipe.
 - Get customer comments utilize this to feed into model.  For example if spice is best with pork use this in recomendations of recipies
 
 
