@@ -15,7 +15,7 @@ For this project, a list of blends, a list of Herbs and spices can be utilized. 
 
 Using a list of 30,000 recipies like the example below, and the blends, and ingredients above can be used to find blends that match to recipies, and potentially blends yet to be created.  
 
-### Steamed Black Cod with Soy-Chile Sauce
+### Example Recipe - Steamed Black Cod with Soy-Chile Sauce
 
 #### https://www.bonappetit.com/recipe/steamed-black-cod-with-soy-chile-sauce
 #### Ingredients
