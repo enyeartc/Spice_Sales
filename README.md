@@ -57,8 +57,6 @@ Using these two matricies allows the data to be compaired and recomendation made
 
 ### H Matrix
 ![image info](images/F1.png)
-
-
 ### W Matrix
 ![image info](images/F2.png)
 
