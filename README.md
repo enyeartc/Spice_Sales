@@ -56,7 +56,11 @@ I went with 50 topics, there is not noticeable bend in the elbow plot seen below
 Using these two matricies allows the data to be compaired and recomendation made for the company and customers.   
 
 ### H Matrix
-![image info](images/FeaturestoSpices.png)
+![image info](images/F1.png)
+
+
+### W Matrix
+![image info](images/F2.png)
 
 For a frame reference feature 39 has the following ingredients ranked in decreasing order
 'scallions', 'chile', 'anise', 'sriracha', 'chives', 'mushroom',
@@ -75,9 +79,12 @@ and one of the blends 'Mt. Olympus Greek Style Seasoning' recipe 26927
 This is a pretty close with a cosine simularity of 0.82 match base on the ingredients, so this blend could be recomended to anyone using this recipe.
 
 ![image info](images/Mackerel.png)
+https://www.bonappetit.com/recipe/mackerel-with-crushed-potatoes-and-oregano
 
 But what if there isn't a good match 'Asian Noodles with Barbecued Duck Confit' there isn't a good blend match, although it does reccomend 'Buffalo Wing Dry Sauce' 
-![image info](images/EpicuriousDuck.png)
+![image info](images/EpicuriousDuck37.png)
+https://www.epicurious.com/recipes/food/views/asian-noodles-with-barbecued-duck-confit-243565
+
 
 Interesting no blends contain scallions.  But 700+ recipies call for this ingredient, this could be a potential new spice blend since there isn't a good match.  These are recipes like
 
