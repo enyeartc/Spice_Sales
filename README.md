@@ -8,7 +8,7 @@ This spice retailer sells a number of products but the main areas are direct her
 ![image info](images/Products.png)
 
 ## Goal
-For this project, I wanted to use Unsupervised Learning to see if there were any groupings of recipes that did not have a spice blend.  I also wanted to do a simple prediction to see which spice blend would most closely match a recipe on the web for potential use with advertising. 
+For this project, I wanted to use Unsupervised Learning to see if there were any groupings of recipes that did not have a spice blend.  I also wanted to do a simple prediction to see which spice blend would most closely match a recipe on the web for potential use with customer dashboard, help sales people, or advertising. 
 
 ### Spices
 
