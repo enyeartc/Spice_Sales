@@ -21,7 +21,7 @@ Using a list of 30,000 recipies like the example below, and the blends, and ingr
 #### Ingredients
 \'1 head of garlic, 3 cloves sliced, remaining head halved crosswise\', \'6 scallions, trimmed, 2 cut into 2" pieces, 4 thinly sliced\', \'1 5" piece peeled fresh ginger, cut into matchstick-size pieces\', \'1/2 lemon\', \'4 4-ounce black cod fillets, skin on\', \'1 tablespoon vegetable oil\', \'Kosher salt\', \'2 tablespoons reduced-sodium soy sauce\', \'2 green Thai chiles or 1 serrano chile, thinly sliced\', \'1 tablespoon chopped fresh cilantro\'
 
-As explained in the process below, to work with this data I took the ingredients listed above, and removed all words that were not in the spice list.  So based in the previous recipe you would only get the following ingredients for this recipe.
+As explained in the process below, to work with this data I took the ingredients listed above, and removed all words that were not in the spice list.  For example the previous recipe you would only get the following ingredients for this recipe.
 
 'garlic', 'cloves', 'scallions', 'ginger', 'green', 'chiles', 'serrano', 'chile'
 
@@ -86,7 +86,11 @@ That contain ingredients like the following.
 'sesame', 'scallions', 'white', 'green', 'lime', 'powder', 'cayenne', 'garlic', 'ginger'
 
 Maybe there might be a 'Ramen Booster' spice blend that is needed.  
-
+## Summary
+  NMF worked very well with model there is still work to do with the recipe list and limiting the spices.
+  There are some challanges with recipes that I didn't anticipate like is 'cloves' a garlic clove or 'cloves' the spice?
+  Some recipies have a parent child relationship like Harissa or Curry, they are used as both a spice and a recipe how should this be 
+  used.  
 ## Future work
 - Customer Analysis, using customer purchases can make an ingredient list
 - Get a list of recipes that customer would like based on purchases
