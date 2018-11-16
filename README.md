@@ -39,7 +39,9 @@ As explained in the process below, to work with this data I took the ingredients
 
 ## Recipe Analysis
 First I looked for order in the data by using PCA with two pricipal components.  
+
 ![image info](images/PCA.png)
+
 In the diagram above one recipe in the top part contained ['dried', 'green', 'celery', 'lemon', 'pepper'] one in the below shape contained ['fennel', 'bulb', 'anise', 'leaves', 'onion'].  Although this might have worked for this analysis, a spice with -.2 and -.4 in not very intuative to understand.   
 
 ### Using NMF
