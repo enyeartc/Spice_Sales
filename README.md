@@ -76,7 +76,7 @@ This is a pretty close with a cosine simularity of 0.82 match base on the ingred
 
 ![image info](images/Mackerel.png)
 
-But what if there isn't a good match 'Asian Noodles with Barbecued Duck Confit' there isn't a good blend match, although it does reccomend 'Mole Verde' 
+But what if there isn't a good match 'Asian Noodles with Barbecued Duck Confit' there isn't a good blend match, although it does reccomend 'Buffalo Wing Dry Sauce' 
 ![image info](images/EpicuriousDuck.png)
 
 Interesting no blends contain scallions.  But 700+ recipies call for this ingredient, this could be a potential new spice blend since there isn't a good match.  These are recipes like
